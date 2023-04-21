@@ -1,0 +1,67 @@
+.container-fluid{
+	font-family: Arial, Helvetica, sans-serif;
+	height:100%;
+}
+.main-content{
+	box-shadow: 0 5px 5px rgba(0,0,0,.4);
+	justify-content: center;
+	display: flex;
+   height: 500px;
+   width: 1000px;
+}
+.sample{
+margin:0;
+
+}
+.company__info{
+	background-color: #008080;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: #fff;
+}
+.fa-android{
+	font-size:3em;
+}
+
+.row > h2{
+	color:#008080;
+	padding: 30px;
+}
+.login_form{
+	background-color: #fff;
+	
+}
+form{
+	padding: 0 2em;
+}
+.form__input{
+	
+	border:0px solid transparent;
+	border-radius: 0;
+	border-bottom: 1px solid #aaa;
+	padding: 1em .5em .5em;
+	padding-left: 2em;
+	outline:none;
+	margin:1.5em auto;
+	transition: all .5s ease;
+}
+.form__input:focus{
+	border-bottom-color: #008080;
+	box-shadow: 0 0 5px rgba(0,80,80,.4); 
+}
+.btn{
+	transition: all .5s ease;
+	width: 70%;
+	border-radius: 30px;
+	color:#008080;
+	font-weight: 600;
+	background-color: #fff;
+	border: 1px solid #008080;
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+}
+.btn:hover, .btn:focus{
+	background-color: #008080;
+	color:#fff;
+}
